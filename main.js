@@ -1,5 +1,5 @@
 const isari = document.querySelectorAll('#isarismn')
-const baro = document.querySelectorAll('#prvl')
+const baro = document.querySelectorAll('.prvl')
 const P = document.querySelectorAll('#ptag')
 const nugia = document.querySelectorAll('#nugo')
 

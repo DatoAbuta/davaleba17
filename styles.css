@@ -46,8 +46,11 @@ h1{
     font-weight: 700;
     line-height: normal;
 }
-#prvl:hover{
+.prvl:hover{
     color: #F47B56;
+}
+#nugo:hover{
+    cursor: pointer;
 }
 
 .first{
@@ -57,7 +60,7 @@ h1{
     margin-top: 40px;
     margin-bottom: 18px;
 }
-#prvl{
+.prvl{
     color: #4B4C5F;
     font-family: 'Kumbh Sans';
     font-size: 13px;
@@ -91,10 +94,11 @@ p{
 .black{
     color: #1E1F36;
     font-family: 'Kumbh Sans';
-    font-size: 25px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    width: 254px;
 }
 .active{
     display: block;
