@@ -1,14 +1,14 @@
 const isari = document.querySelectorAll('#isarismn')
-const h2 = document.querySelectorAll('#prvl')
+const baro = document.querySelectorAll('#prvl')
 const P = document.querySelectorAll('#ptag')
 const nugia = document.querySelectorAll('#nugo')
 
 for (let i = 0; i < nugia.length; i++) {
-    nugia[i].addEventListener("click", () => {
-        h2[i].classList.toggle("gansxvavebuli");
+    nugia[i].addEventListener("click", function() {
+        baro[i].classList.toggle("gansxvavebuli");
         for (let j = 0; j < nugia.length; j++) {
             if (j !== i) {
-                h2[j].classList.remove("gansxvavebuli");
+                baro[j].classList.remove("gansxvavebuli");
             }
         }
         isari[i].classList.toggle("rotate");

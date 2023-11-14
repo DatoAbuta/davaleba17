@@ -46,7 +46,7 @@ h1{
     font-weight: 700;
     line-height: normal;
 }
-h2:hover{
+#prvl:hover{
     color: #F47B56;
 }
 
@@ -57,7 +57,7 @@ h2:hover{
     margin-top: 40px;
     margin-bottom: 18px;
 }
-h2{
+#prvl{
     color: #4B4C5F;
     font-family: 'Kumbh Sans';
     font-size: 13px;
@@ -66,7 +66,7 @@ h2{
     line-height: normal;
     text-align: start;
     align-items: start;
-    width: 235px;
+    width: 236px;
 }
 .line{
     width: 279px;
@@ -91,7 +91,7 @@ p{
 .gansxvavebuli{
     color: #1E1F36;
     font-family: 'Kumbh Sans';
-    font-size: 13px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -112,9 +112,6 @@ p{
     display: flex;
     flex-direction: row;
     column-gap: 34px;
-}
-#prvl{
-    width: 236px;
 }
 .mr{
     width: 177px;
