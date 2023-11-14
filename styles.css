@@ -34,8 +34,9 @@ body{
     align-items: center;
 }
 .gogo{
-    margin-top: -160px;
-    margin-bottom: 60px;
+    position: absolute;
+    top: 40px;
+    right: 17%;
 }
 h1{
     color: #1E1F36;
